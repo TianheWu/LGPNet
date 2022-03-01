@@ -1,0 +1,26 @@
+# pycache
+__pycache__
+
+# dataset
+dataset_train/*
+dataset_eval/*
+dataset/*
+
+# output model file
+output/*
+tensorboard/*
+net_graph/*
+
+# load model file
+models/initmodel/*
+weights_cornell/*
+
+# temp file
+learn.py
+
+# model
+pspnet_weights_cornell/*
+
+# docs
+*.pdf
+*.zip
