@@ -1,4 +1,4 @@
-# LGPNet: Alleviating a few Labels and Large-Scale Network Dilemmas in Grasping Detection
+# Alleviating a few Labels and Large-Scale Network Dilemmas in Grasping Detection
 
 ## Installation
 Python requirements can installed by:
@@ -13,7 +13,7 @@ Training datasets: [Cornell Dataset](https://www.kaggle.com/oneoneliu/cornell-gr
 Testing dataset: [Jacquard Dataset](https://jacquard.liris.cnrs.fr/)
 
 ## Network
-
+![result](./images/LGPNet.png)
 
 ### Training
 
