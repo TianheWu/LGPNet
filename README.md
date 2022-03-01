@@ -1,4 +1,4 @@
-# Alleviating a few Labels and Large-Scale Network Dilemmas in Grasping Detection
+# LGPNet: Alleviating a few Labels and Large-Scale Network Dilemmas in Grasping Detection
 
 ## Installation
 Python requirements can installed by:
