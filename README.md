@@ -30,7 +30,7 @@ sh train_jacquard.sh
 
 ## Contact Information
 
-Email: tianhe_wu@foxmail.com
+Email: tianhe_wu@emails.bjut.edu.cn
 
 
 
