@@ -15,7 +15,6 @@ net_graph/*
 models/initmodel/*
 weights_cornell/*
 
-
 # docs
 *.pdf
 *.zip
