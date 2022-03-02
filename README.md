@@ -54,7 +54,7 @@ LGPNet-A is otaining from MixSSL and knowledge distillation training.
 python train_net.py --description <Description of training> \
     ...
     --end-split 0.2 \
-    --trained-net-path <Path to LGPNet-C> \
+    --trained-net-path <Path to LGPNet-B> \
     --use-ssp \
     --use-tea
 
