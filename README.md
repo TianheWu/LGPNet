@@ -15,8 +15,10 @@ pip install -r requirements.txt
 
 ## Training
 Before you training model, you need to **creat a folder named initmodel under the models folder**. It contains the pre-trained ResNet-18 and ResNet-50 model [Source files and Pre-trained models](https://github.com/TianheWu/LGPNet/releases/tag/Version-1). Then you can run the command below to train the model:
+
+### LGPNet-C Training
 ```shell
-# You can train LGPNet by this command.
+# You can train LGPNet-C by this command.
 python train_net.py --description <Description of training> \
     --batch-size 8 \
     --network lgpnet \
@@ -30,6 +32,34 @@ python train_net.py --description <Description of training> \
 # --laters is the ResNet layer you choose, you can set 18 or 50.
 # --start-split is a float number between 0.0-1.0, it means the start postion of split dataset.
 # --end-split is a float number between 0.0-1.0, it means the end postion of split dataset.
+```
+### LGPNet-B Training
+LGPNet-B is otaining from MixSSL training. You need to add two extra variable.
+```shell
+# You can train LGPNet-B by this command.
+python train_net.py --description <Description of training> \
+    ...
+    --end-split 0.2 \
+    --trained-net-path <Path to LGPNet-C> \
+    --use-ssp 
+
+# --trained-net-path is the model path of LGPNet-C.
+# --use-ssp is using MixSSL training method.
+```
+
+### LGPNet-A Training
+LGPNet-A is otaining from MixSSL and knowledge distillation training.
+```shell
+# You can train LGPNet-B by this command.
+python train_net.py --description <Description of training> \
+    ...
+    --end-split 0.2 \
+    --trained-net-path <Path to LGPNet-C> \
+    --use-ssp \
+    --use-tea
+
+# --trained-net-path is the model path of LGPNet-B.
+# --use-tea is using knowledge distillation training method.
 ```
 
 ## Contact Information
