@@ -15,11 +15,6 @@ net_graph/*
 models/initmodel/*
 weights_cornell/*
 
-# temp file
-learn.py
-
-# model
-pspnet_weights_cornell/*
 
 # docs
 *.pdf
