@@ -14,7 +14,7 @@ pip install -r requirements.txt
 - [Jacquard Dataset](https://jacquard.liris.cnrs.fr/)
 
 ## Training
-Before you training model, you need to **creat a folder named initmodel under the models folder**. It contains the  pre-trained ResNet-18 and Resnet-50 model. Then you can run the shell files or run the command below:
+Before you training model, you need to **creat a folder named initmodel under the models folder**. It contains the pre-trained ResNet-18 and Resnet-50 model [Source files and Pre-trained models](https://github.com/TianheWu/LGPNet/releases/tag/Version-1). Then you can run the command below to train the model:
 ```shell
 # You can train LGPNet by this command.
 python train_net.py --description <Description of training> \
