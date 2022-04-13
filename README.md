@@ -1,4 +1,4 @@
-# Lightweight Grasping Pyramid Network
+# LGPNet: Alleviating A Few Labeled Data and Large-Scale Network Dilemmas in Grasping Detection
 
 ## Abstract
 We propose a new semi-supervised learning method, focusing on solving the problems of a few labeled data in natural scenes. Moreover, we propose a novel **Lightweight Grasping Pyramid Network (LGPNet)** with knowledge distillation to solve the large-scale network with high calculating speed. We conduct experiments in the Cornell dataset and Jacquard dataset with **25%** labeled data and **75%** unlabeled data, obtaining state-of-the-art performance with depth images by object-wise data split. The accuracy score reaches 97.2% in the Cornell dataset and 92.4% in the Jacquard dataset.
