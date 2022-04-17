@@ -61,6 +61,3 @@ python train_net.py --description <Description of training> \
 # --trained-net-path is the model path of LGPNet-B.
 # --use-tea is using knowledge distillation training method.
 ```
-
-## Contact Information
-Email: tianhe_wu@emails.bjut.edu.cn
