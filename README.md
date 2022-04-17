@@ -9,7 +9,7 @@ Python requirements can installed by:
 pip install -r requirements.txt
 ```
 
-## Cornell Dataset & Jacquard Dataset
+## Dataset
 - [Cornell Dataset](https://www.kaggle.com/oneoneliu/cornell-grasp)
 - [Jacquard Dataset](https://jacquard.liris.cnrs.fr/)
 
